@@ -54,7 +54,9 @@
             </nav> <!-- nav#headerGNB -->
         </header> <!-- header#header -->
         <!-- 헤더 영역이 끝났습니다. -->
-
+        <div id="navBG">
+            <!-- headerGNB 의 배경 div -->
+        </div>
         <main id="main">
             <div id="slideFrame">
                 <div id="slideShuttle" class="flex-container">
@@ -75,8 +77,7 @@
             <div id="bbs" class="flex-container">
                 <div id="notice">
                    <button type="button" class="tabBtn tabSelected">공지사항</button>
-                   <button type="button" class="tabBtn">갤러리</button>
-                    <table id="tbl_notice">
+                    <table id="tbl_notice" class="bbs_table">
                         <tbody>
                             <tr>
                                 <td>공지</td>
@@ -96,14 +97,14 @@
                             </tr>
                         </tbody>
                     </table> <!-- table#tbl_notice -->
-                    <table id="tbl_gallery">
-                        <td><img src="images/galleryImg02.jpg" alt="갤러리이미지1"></td>
-                        <td><img src="images/galleryImg03.jpg" alt="갤러리이미지2"></td>
-                        <td><img src="images/galleryImg04.jpg" alt="갤러리이미지3"></td>
-                    </table> <!-- table#tbl_gallery-->
                 </div> <!-- div#notice -->
                 <div id="gallery">
-                    <!-- 갤러리 이미지가 들어 갑니다. -->
+                    <button type="button" class="tabBtn">갤러리</button>
+                    <table id="tbl_gallery" class="bbs_table">
+                        <td><img src="images/galleryImg02.jpg" alt="갤러리이미지1"></td>
+                        <td><img src="images/galleryImg01.jpg" alt="갤러리이미지2"></td>
+                        <td><img src="images/galleryImg04.jpg" alt="갤러리이미지3"></td>
+                    </table> <!-- table#tbl_gallery-->
                 </div> <!-- div#gallery -->
                 <div id="banner">
                     <!-- 배너 이미지가 들어 갑니다. -->
@@ -113,16 +114,38 @@
 
         <!-- 메인 영역이 끝났습니다. -->
 
-        <footer id="footer">
-
+        <footer id="footer" class="flex-container">
+            <div id="footerContainer">
+                <nav id="footerLNB">
+                    <ul id="footerLNBul" class="flex-container">
+                        <li class="footerLNBli"><a href="#">개인정보처리방침</a></li>
+                        <li class="footerLNBli">|</li>
+                        <li class="footerLNBli"><a href="#">이메일무단수집거부</a></li>
+                        <li class="footerLNBli">|</li>
+                        <li class="footerLNBli"><a href="#">인터넷증명발급(학생)</a></li>
+                        <li class="footerLNBli">|</li>
+                        <li class="footerLNBli"><a href="#">인터넷증명발급(외래교수)</a></li>
+                    </ul>
+                </nav> <!-- nav#footerLNB -->
+                <div id="copyright">
+                    서울시 노원구 공릉로 232 서울과학기술대학교 [대표번호 : 02-970-6114] 
+                    <br>
+                    Copyright (c) 2017 SEOUL NATIONAL UNIVERSITY OF SCIENCE AND TECHNOLOGY. All Rights Reserved
+                </div> <!-- div#copyright -->
+            </div> <!-- div#footerContainer -->
+            <div id="familyStie">
+                <ul id="siteList">
+                    <li class="sitemenu"><a href="#">교육부</a></li>
+                    <li class="sitemenu"><a href="#">한국교육정보원</a></li>
+                    <li class="sitemenu"><a href="#">한국장학재단</a></li>
+                </ul>
+            </div> <!-- div#familyStie -->
         </footer> <!-- footer#footer-->
 
         <!-- 푸터 영역이 끝났습니다. -->
 
     </div> <!-- div#wrap -->
-    <div id="navBG">
-        <!-- headerGNB 의 배경 div -->
-    </div>
+    
     <div id="popUpBG">
         <div id="modalPop">
             모달 레이어 팝업이 들어갑니다.
