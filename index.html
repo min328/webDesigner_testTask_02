@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>산업대학교</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/jquery-1.12.3.js"></script>
+    <script src="script/script.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header" class="flex-container">
+            <div id="headerLogo">
+                <!--로고가 들어갈 자리 입니다. css:background-img -->
+            </div> <!-- div#headerLogo -->
+            <nav id="headerGNB">
+                <ul id="mainMenu" class="flex-container">
+                    <li class="mainLi">
+                        <a href="#">대학소개</a>
+                        <ul class="subMenu">
+                            <li class="subLi"><a href="#">총장인사말</a></li>
+                            <li class="subLi"><a href="#">학교소개</a></li>
+                            <li class="subLi"><a href="#">홍보관</a></li>
+                            <li class="subLi"><a href="#">캠퍼스안내</a></li>
+                        </ul>
+                    </li>
+                    <li class="mainLi">
+                        <a href="#">입학안내</a>
+                        <ul class="subMenu">
+                            <li class="subLi"><a href="#">수시모집</a></li>
+                            <li class="subLi"><a href="#">정시모집</a></li>
+                            <li class="subLi"><a href="#">편입학</a></li>
+                            <li class="subLi"><a href="#">재외국민</a></li>
+                        </ul>
+                    </li>
+                    <li class="mainLi">
+                        <a href="#">정보서비스</a>
+                        <ul class="subMenu">
+                            <li class="subLi"><a href="#">대학정보알림</a></li>
+                            <li class="subLi"><a href="#">정보공개</a></li>
+                            <li class="subLi"><a href="#">정보서비스안내</a></li>
+                        </ul>
+                    </li>
+                    <li class="mainLi">
+                        <a href="#">커뮤니티</a>
+                        <ul class="subMenu">
+                            <li class="subLi"><a href="#">공지사항</a></li>
+                            <li class="subLi"><a href="#">참여게시판</a></li>
+                            <li class="subLi"><a href="#">자료실</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav> <!-- nav#headerGNB -->
+        </header> <!-- header#header -->
+        <!-- 헤더 영역이 끝났습니다. -->
+
+        <main id="main">
+            <div id="slideFrame">
+                <div id="slideShuttle" class="flex-container">
+                   <div id="slide1" class="slideBox">
+                    <img src="images/slide01.jpg" alt="슬라이드 이미지1 학교 전경">
+                      <p>여러분들이 꿈을 이룰수 있는곳!</p> 
+                   </div>
+                   <div id="slide2" class="slideBox">
+                    <img src="images/slide02.jpg" alt="슬라이드 이미지2 학교 봄풍경">
+                       <p>자연과 함께 숨쉬는 교육터!!</p>
+                   </div>
+                   <div id="slide3" class="slideBox">
+                    <img src="images/slide03.jpg" alt="슬라이드 이미지3 학교 풍경">
+                       <p>24시간 오픈되어 있는 실습실</p>
+                   </div>
+                </div> <!-- div#slideShuttle -->
+            </div> <!-- div#slideFrame -->
+            <div id="bbs" class="flex-container">
+                <div id="notice">
+                   <button type="button" class="tabBtn tabSelected">공지사항</button>
+                   <button type="button" class="tabBtn">갤러리</button>
+                    <table id="tbl_notice">
+                        <tbody>
+                            <tr>
+                                <td>공지</td>
+                                <td>[인재개발원] 2019년 6월 테크노관</td>
+                            </tr>
+                            <tr>
+                                <td>학사</td>
+                                <td>2019학년도 하계 계절학기 시행</td>
+                            </tr>
+                            <tr>
+                                <td>대학원</td>
+                                <td>논문 유사도 검사 결과공지</td>
+                            </tr>
+                            <tr>
+                                <td>장학</td>
+                                <td>천안시 학자금 대출이자 완화</td>
+                            </tr>
+                        </tbody>
+                    </table> <!-- table#tbl_notice -->
+                    <table id="tbl_gallery">
+                        <td><img src="images/galleryImg02.jpg" alt="갤러리이미지1"></td>
+                        <td><img src="images/galleryImg03.jpg" alt="갤러리이미지2"></td>
+                        <td><img src="images/galleryImg04.jpg" alt="갤러리이미지3"></td>
+                    </table> <!-- table#tbl_gallery-->
+                </div> <!-- div#notice -->
+                <div id="gallery">
+                    <!-- 갤러리 이미지가 들어 갑니다. -->
+                </div> <!-- div#gallery -->
+                <div id="banner">
+                    <!-- 배너 이미지가 들어 갑니다. -->
+                </div> <!-- div#banner -->
+            </div> <!-- div#bbs -->
+        </main> <!-- main#main -->
+
+        <!-- 메인 영역이 끝났습니다. -->
+
+        <footer id="footer">
+
+        </footer> <!-- footer#footer-->
+
+        <!-- 푸터 영역이 끝났습니다. -->
+
+    </div> <!-- div#wrap -->
+    <div id="navBG">
+        <!-- headerGNB 의 배경 div -->
+    </div>
+    <div id="popUpBG">
+        <div id="modalPop">
+            모달 레이어 팝업이 들어갑니다.
+        </div> <!-- div#modalPop -->
+    </div> <!-- div#popUpBG -->
+</body></html>
