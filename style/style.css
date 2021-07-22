@@ -75,7 +75,7 @@ li.subLi > a {
 }
 
 /* GNB 하이라이트 기능 */
-li.mainLi > a:hover {
+li.mainLi:hover a {
   color: #fff;
   background-color: #000;
 }
